@@ -85,7 +85,7 @@ export default function Basket(props) {
                 <strong>Total Price</strong>
               </div>
               <div className="col-1 text-right">
-                <strong>{ promoprice > 0 ? discount.toFixed(2) : totalPrice.toFixed(2)}</strong>
+                <strong>${ promoprice > 0 ? discount.toFixed(2) : totalPrice.toFixed(2)}</strong>
               </div>
             </div>
             <hr />
